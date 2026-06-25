@@ -1,18 +1,8 @@
-# Code Bat AI
+# github pr-code-review-ai
 
 _An AI code review GitHub bot application streamlining PRs reviews in great detail and providing each file change summary, a walkthrough of all changes, and the aspects of changes the code has been updated within the PR description itself. It also conducts code reviews and raises change requests in a thread._
 
-![image](https://github.com/Divyanshu9822/codebatai/assets/90151736/42ad37d4-49dc-4e9a-b895-5921fea7c667)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -56,25 +46,3 @@ For instructions on how to set up and configure the application locally :
 
 1. Merge a pull request.
 2. The bot will automatically delete the corresponding branch after mentioning the branch deletion in comment by tagging author, keeping your repository organized.
-
-## Screenshots
-
-<img width="1440" alt="Screenshot 2024-06-12 at 8 16 19 AM" src="https://github.com/Divyanshu9822/codebatai/assets/90151736/f2af0688-442c-47b1-aadd-e8431ae337dd">
-<img width="1440" alt="Screenshot 2024-06-12 at 8 16 41 AM" src="https://github.com/Divyanshu9822/codebatai/assets/90151736/e9e4d997-e433-4d85-af7f-8478c63b54f6">
-<img width="1440" alt="Screenshot 2024-06-12 at 8 16 57 AM" src="https://github.com/Divyanshu9822/codebatai/assets/90151736/d0d08e0f-3eb2-4cfa-8745-afc157d928cc">
-<img width="1440" alt="Screenshot 2024-06-12 at 8 17 04 AM" src="https://github.com/Divyanshu9822/codebatai/assets/90151736/15acc942-6988-41e1-b160-5d73169a1e9f">
-<img width="1440" alt="Screenshot 2024-06-12 at 8 17 17 AM" src="https://github.com/Divyanshu9822/codebatai/assets/90151736/64fd1232-08c2-4ac6-8003-bf48e8c7b847">
-
-## Contributing
-
-If you have suggestions for how `codebatai` could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
-
-For more, check out the [Contributing Guide](CONTRIBUTING.md).
-
-## License
-
-[ISC](LICENSE) © 2024 [Divyanshu Prasad](https://divyanshuprasad.dev/)
-
-## Contact
-
-For any inquiries or support, please contact [Divyanshu Prasad](https://divyanshuprasad.dev/)
