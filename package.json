@@ -1,0 +1,39 @@
+{
+  "name": "codebatai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automate Your Code Reviews with AI 🚀",
+  "author": "Divyanshu Prasad",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./src/app.js",
+    "dev": "nodemon --exec 'probot run ./src/app.js'",
+    "test": "node --test",
+    "lint": "eslint ./src",
+    "format": "prettier --write './src/**/*.js'"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.4.0",
+    "probot": "^13.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.3.0",
+    "nock": "^14.0.0-beta.5",
+    "nodemon": "^3.1.2",
+    "prettier": "3.3.0",
+    "smee-client": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module"
+}
